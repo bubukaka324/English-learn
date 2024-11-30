@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Rectangle 16 */
+.head_1{
+width: 1920px;
+height: 158px;
+left: 0px;
+top: 0px;
+flex-direction: row;
+background: #ffffff;
+}
+
+/* Rectangle 17 */
+.head_1{
+box-sizing: border-box;
+
+width: 207px;
+height: 69px;
+left: 1536px;
+top: 48px;
+
+border: 3px solid #41DD70;
+border-radius: 19px;
+}
+
+/* Увійти */
+.head_1{
+width: 135px;
+height: 48px;
+left: 1585px;
+top: 63px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 39px;
+
+color: #41DD70;
+}
+
+
