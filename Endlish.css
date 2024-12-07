@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    font-family:'Inter', sans-serif; 
+}
+
+.greenbox{
+    display:flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    font-weight: bold;
+    width: 1920px;
+    height: 971px;
+    left: 0px;
+    top: 149px;
+
+    background: #41DD70;
+
+}
+h2{
+    font-size: 96px;
+    color:black;
+}
+h1{
+
+    width: 815px;
+    height: 348px;
+    left: 75px;
+    top: 225px;
+
+    position:relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 116px;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+p{
+    color:#FFFFFF;
+    font-size:40px;
+    text-align: center;
+}
+.divsingreenbox{
+    padding-right: 120px;
+    left: 0px;
+    top: 200px;
+
+    position:relative;
+}
+.plan1{
+    box-sizing: border-box;
+
+
+    width: 480px;
+    height: 130px;
+    left: 1203.29px;
+    top: 335px;
+
+    margin-bottom: 100px;
+    background: rgba(209, 209, 209, 46%);
+    border: 3px solid #3C8251;
+    border-radius: 30px;
+    transform: rotate(-10deg);
+}
+.plan2{
+    
+
+    box-sizing: border-box;
+
+
+    width: 480px;
+    height: 130px;
+    left: 1225.57px;
+    top: 497px;
+
+    margin-bottom: 100px;
+    background: rgba(209, 209, 209, 46%);
+    border: 3px solid #3C8251;
+    border-radius: 30px;
+    transform: rotate(10deg);
+
+}
+.plan3{
+
+    box-sizing: border-box;
+
+
+    width: 480px;
+    height: 130px;
+    left: 1203px;
+    top: 816.35px;
+
+    margin-bottom: 100px;
+    background: rgba(209, 209, 209, 46%);
+    border: 3px solid #3C8251;
+    border-radius: 30px;
+    transform: rotate(-10deg);
+
+}
+.pazl{
+
+
+    width: 96px;
+    height: 96px;
+    left: 420px;
+    top: -50px;
+
+    position:relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 116px;
+    transform: rotate(10deg);
+    color: #000000;
+
+}
+.dialog{
+
+
+
+    width: 96px;
+    height: 96px;
+    left: -50px;
+    top: -40px;
+
+    position:relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 116px;
+    transform: rotate(-10deg);
+    color: #000000;
+
+}
+.book{
+
+
+    width: 96px;
+    height: 96px;
+    left: 420px;
+    top: -50px;
+
+    position:relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 116px;
+    transform: rotate(10deg);
+    color: #000000;
+
+
+}
