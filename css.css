@@ -11,20 +11,29 @@ background: #ffffff;
 }
 
 /* Rectangle 17 */
-.head_1{
-box-sizing: border-box;
+.head_2{
+    box-sizing: border-box;
+    
+    width: 207px;
+    height: 69px;
+    left: 1536px;
+    top: 48px;
+    
+    border: 3px solid #41DD70;
+    border-radius: 19px;
+    }
 
-width: 207px;
-height: 69px;
-left: 1536px;
-top: 48px;
 
-border: 3px solid #41DD70;
-border-radius: 19px;
-}
+
+width: 1920px;
+height: 971px;
+left: 0px;
+top: 158px;
+
+background: #41DD70;
 
 /* Увійти */
-.head_1{
+.head_2{
 width: 135px;
 height: 48px;
 left: 1585px;
