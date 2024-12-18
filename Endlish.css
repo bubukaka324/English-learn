@@ -269,15 +269,6 @@ h1{
     margin:15px;
 }
 
-.left_top{
-    left:10%;
-    top:5%;
-}
-.right_top{
-    left:60%;
-    top:80px;
-}
-
 .description div p{
     position: relative;
     top:-50px;
@@ -305,4 +296,23 @@ footer{
     display: flex;
     flex-direction: row;
     background-color: #D9D9D9;
+}
+
+
+.left_top{
+    left:10%;
+    top:5%;
+}
+
+.right_top{
+    left:70%;
+    top: -21%;
+}
+
+.left_bottom{
+    left:10%;
+}
+.right_bottom{
+    left:70%;
+    top:-26%;
 }
