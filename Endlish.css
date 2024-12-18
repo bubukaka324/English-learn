@@ -251,9 +251,10 @@ h1{
 }
 
 .description div{
-    position:relative;
-    background-color: #41DD70;
-    width:250px;
+    position: relative;
+    background-color: rgb(65, 221, 112);
+    width: 350px;
+    height: 200px;
     border-radius: 100%;
 }
 
@@ -285,36 +286,4 @@ footer{
     display: flex;
     flex-direction: row;
     background-color: #D9D9D9;
-}
-
-.right_top{
-    left:70%;
-    top: -21%;
-}
-
-.left_bottom{
-    left:10%;
-}
-.right_bottom{
-    left:70%;
-    top:-26%;
-}
-
-.description div p{
-    position: relative;
-    top:-50px;
-    margin:0 50px;
-    font-size: 36px;
-    display: block;
-    text-align: center;
-}
-.img{
-    position: relative;
-    top:-40px;
-}
-
-.img_right{
-    position: relative;
-    top:-40px;
-    left: 250px;
 }
