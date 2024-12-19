@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jaro:opsz@6..72&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+main{
+    margin-top: 17px;
+    margin-bottom: 300px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    height: 80px;
+    width: 100vw;
+    top: 0;
+}
+.menu img{
+    height: 50px;
+    width: 50px;
+    margin-left: 51px;
+    margin-top: 30px;
+    margin-bottom: 34px;
+}
+.menu button{
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 177px;
+    background-color: white;
+    border: 2px solid #41DD70 ;
+    border-radius: 9px;
+    color: #41DD70;
+    font-size: 16px;
+    padding: 7px 25px;
+
+
+}
+.menu div{
+    display: flex;
+    flex-direction: row;
+}
+.menu div p{
+    padding: 24px 0px 21px 70px;
+    font-size: 20px;
+
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.block1{
+    background-color: #41DD70;
+    height: 500px;
+    
+}
+main div h1{
+    position: relative;
+    display: block;
+    width: 575px;
+    margin: 0 auto;
+    top: 40%;
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: center;
+}
+main div img{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top: 65%;
+    display: block;
+}
+.block2 h2{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    font-size: 48px;
+    color:black;
+    font-weight: bold;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 300px;
+    justify-content: space-between;
+}
+.box1{
+    width: 215px;
+    height: 215px;
+}
+.box1 h3{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    font-size: 27px;
+    text-align: center;
+    background-color: #41DD70;
+    color:black;
+    border: 2px solid #41DD70 ;
+    border-radius: 9px;
+    padding: 20px 40px;
+    margin-top: 15px;
+   
+}
+.box2{
+    width: 215px;
+    height: 215px;
+}
+.box2 h4{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    font-size: 27px;
+    text-align: center;
+    background-color: #41DD70;
+    color:black;
+    border: 2px solid #41DD70 ;
+    border-radius: 9px;
+    padding: 53px 40px;
+    margin-top: 15px;  
+}
+.block2{
+    margin-top: 15px;
+
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 285px;
+    justify-content: space-between;
+}
+.button1{
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 78px;
+    margin-left: 78px;
+    background-color: white;
+    border: 2px solid #2FC65C ;
+    border-radius: 9px;
+    color: #307846;
+    font-size: 20px;
+    padding: 7px 8px;
+}
+.button2{
+    height: 40px;
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 78px;
+    margin-left: 78px;
+    background-color: white;
+    border: 2px solid #2FC65C ;
+    border-radius: 9px;
+    color: #307846;
+    font-size: 20px;
+    padding: 7px 8px;
+}
+.block3 h2{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 360px;
+    text-align: center;
+    font-size: 48px;
+    color:black;
+    font-weight: bold;
+}
+.block3 p{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+    font-size: 27px;
+    color:black;
+    border: 2px solid #534949 ;
+    border-radius: 30px;
+    padding: 60px 90px;
+    margin-top: 15px;
+    
+    
+}
+.block3{
+    margin-top: 15px;
+
+}
+.start{
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    border: 2px solid #307846 ;
+    border-radius: 9px;
+    color: #307846;
+    font-size: 32px;
+    padding: 7px 25px;
+    margin: 50px auto 0 auto;
+    display: block;
+}
+.block4 h2{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 360px;
+    text-align: center;
+    font-size: 48px;
+    color:black;
+    font-weight: bold;
+}
+.words{
+    border: 2px solid #534949 ;
+    border-radius: 30px;
+    padding: 60px 90px;
+    margin-top: 15px;
+    position: relative;
+    display: flex;
+    margin: 15px 400px;
+    justify-items: center;
+    flex-direction: column;
+
+}
+.words h3{
+    position: relative;
+    display: flex;
+    margin-left: 30px;
+    width: 600px;
+    font-size: 27px;
+    color:#005A03;
+    text-align: center;
+}
+.words p{
+    position: relative;
+    display: block;
+    margin: 20px 30px;
+    width: 500px;
+    font-size: 27px;
+    color:black;
+    text-align: center; 
+}
+.block4{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    height: 600px;
+
+}
+.block4 button{
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    border: 2px solid #307846 ;
+    border-radius: 9px;
+    color: #307846;
+    font-size: 32px;
+    padding: 7px 25px;
+    margin: 50px auto 0 auto;
+    display: block;
+}
+.answer-button{
+    height: 60px;
+    width: 180px;
+    background-color: white;
+    border: 2px solid #41DD70 ;
+    border-radius: 9px;
+    color: #000000;
+    font-size: 40px;
+    padding: 7px 25px;
+    margin: 50px 35px 0px 0px;
+    display: block;
+
+}
+
+.question11 h2{
+    position:relative;
+    display: block;
+    margin-top: 15px;
+    margin-left:340px;
+    width: 360px;
+    text-align: left;
+    font-size: 48px;
+    color:black;
+    font-weight: bold;
+}
+.maindiv{
+    border: 2px solid #534949 ;
+    border-radius: 30px;
+    padding: 60px 90px;
+    margin-top: 15px;
+    position: relative;
+    display: block;
+    margin: 15px 400px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    height: 300px;
+
+}
+.question11 h3{
+    position: relative;
+    display: block;
+    margin: 20px;
+    width: 600px;
+    font-size: 27px;
+    color:black;
+    font-size: 35px;
+    text-align: center;   
+}
+.question11{
+    margin-top: 15px;
+
+
+}
+
+.buttons1{
+    display: flex;
+}
+.next{
+    height: 60px;
+    width: 130px;
+    background-color: white;
+    border: 2px solid #307846 ;
+    border-radius: 9px;
+    color: #307846;
+    font-size: 26px;
+    padding: 7px 25px;
+    margin-right: 190px;
+    margin-left: 1005px;
+    margin-top: 25px;
+    display: block;
+}
+
+.question12 h2{
+    position:relative;
+    display: block;
+    margin-top: 15px;
+    margin-left:340px;
+    width: 360px;
+    text-align: left;
+    font-size: 48px;
+    color:black;
+    font-weight: bold;
+}
+.maindiv2{
+    border: 2px solid #534949 ;
+    border-radius: 30px;
+    padding: 60px 90px;
+    margin-top: 15px;
+    position: relative;
+    display: block;
+    margin: 15px 400px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    height: 300px;
+
+}
+.question12 h3{
+    position: relative;
+    display: block;
+    margin: 20px;
+    width: 600px;
+    font-size: 27px;
+    color:black;
+    font-size: 35px;
+    text-align: center;   
+}
+.question12{
+    margin-top: 15px;
+
+
+}
+.buttons2{
+    display: flex;
+}
+.next2{
+    height: 60px;
+    width: 130px;
+    background-color: white;
+    border: 2px solid #307846 ;
+    border-radius: 9px;
+    color: #307846;
+    font-size: 26px;
+    padding: 7px 25px;
+    margin: 0px 190px 0px 15px;
+    display: block;
+}
+.back2{
+    height: 60px;
+    width: 130px;
+    background-color: white;
+    border: 2px solid #307846 ;
+    border-radius: 9px;
+    color: #307846;
+    font-size: 26px;
+    padding: 7px 25px;
+    margin: 0px 0px 0px 860px;
+    display: block;
+}
+.buttonsnb2{
+    display:flex;
+    flex-direction: row; 
+    margin-top: 25px;
+}
+
+.question13 h2{
+    position:relative;
+    display: block;
+    margin-top: 15px;
+    margin-left:340px;
+    width: 360px;
+    text-align: left;
+    font-size: 48px;
+    color:black;
+    font-weight: bold;
+}
+.maindiv3{
+    border: 2px solid #534949 ;
+    border-radius: 30px;
+    padding: 60px 90px;
+    margin-top: 15px;
+    position: relative;
+    display: block;
+    margin: 15px 400px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    height: 300px;
+
+}
+.question13 h3{
+    position: relative;
+    display: block;
+    margin: 20px;
+    width: 600px;
+    font-size: 27px;
+    color:black;
+    font-size: 35px;
+    text-align: center;   
+}
+.question13{
+    margin-top: 15px;
+
+
+}
+.buttons3{
+    display: flex;
+}
+.next3{
+    height: 60px;
+    width: 130px;
+    background-color: white;
+    border: 2px solid #307846 ;
+    border-radius: 9px;
+    color: #307846;
+    font-size: 26px;
+    padding: 7px 25px;
+    margin: 0px 190px 0px 15px;
+    display: block;
+}
+.back3{
+    height: 60px;
+    width: 130px;
+    background-color: white;
+    border: 2px solid #307846 ;
+    border-radius: 9px;
+    color: #307846;
+    font-size: 26px;
+    padding: 7px 25px;
+    margin: 0px 0px 0px 860px;
+    display: block;
+}
+.buttonsnb3{
+    display:flex;
+    flex-direction: row; 
+    margin-top: 25px;
+}
+
+.question14 h2{
+    position:relative;
+    display: block;
+    margin-top: 15px;
+    margin-left:340px;
+    width: 360px;
+    text-align: left;
+    font-size: 48px;
+    color:black;
+    font-weight: bold;
+}
+.maindiv4{
+    border: 2px solid #534949 ;
+    border-radius: 30px;
+    padding: 60px 90px;
+    margin-top: 15px;
+    position: relative;
+    display: block;
+    margin: 15px 400px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    height: 300px;
+
+}
+.question14 h3{
+    position: relative;
+    display: block;
+    margin: 20px;
+    width: 600px;
+    font-size: 27px;
+    color:black;
+    font-size: 35px;
+    text-align: center;   
+}
+.question14{
+    margin-top: 15px;
+
+
+}
+.buttons4{
+    display: flex;
+}
+.next4{
+    height: 60px;
+    width: 130px;
+    background-color: white;
+    border: 2px solid #307846 ;
+    border-radius: 9px;
+    color: #307846;
+    font-size: 26px;
+    padding: 7px 25px;
+    margin: 0px 190px 0px 15px;
+    display: block;
+}
+.back4{
+    height: 60px;
+    width: 130px;
+    background-color: white;
+    border: 2px solid #307846 ;
+    border-radius: 9px;
+    color: #307846;
+    font-size: 26px;
+    padding: 7px 25px;
+    margin: 0px 0px 0px 860px;
+    display: block;
+}
+.buttonsnb4{
+    display:flex;
+    flex-direction: row; 
+    margin-top: 25px;
+}
+
+.question15 h2{
+    position:relative;
+    display: block;
+    margin-top: 15px;
+    margin-left:340px;
+    width: 360px;
+    text-align: left;
+    font-size: 48px;
+    color:black;
+    font-weight: bold;
+}
+.maindiv5{
+    border: 2px solid #534949 ;
+    border-radius: 30px;
+    padding: 60px 90px;
+    margin-top: 15px;
+    position: relative;
+    display: block;
+    margin: 15px 400px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    height: 300px;
+
+}
+.question15 h3{
+    position: relative;
+    display: block;
+    margin: 20px;
+    width: 600px;
+    font-size: 27px;
+    color:black;
+    font-size: 35px;
+    text-align: center;   
+}
+.question15{
+    margin-top: 15px;
+
+
+}
+.buttons5{
+    display: flex;
+}
+.finish{
+    height: 60px;
+    width: 250px;
+    background-color: white;
+    border: 2px solid #307846 ;
+    border-radius: 9px;
+    color: #307846;
+    font-size: 26px;
+    padding: 7px 25px;
+    margin: 0px 190px 0px 15px;
+    display: block;
+}
+.back5{
+    height: 60px;
+    width: 130px;
+    background-color: white;
+    border: 2px solid #307846 ;
+    border-radius: 9px;
+    color: #307846;
+    font-size: 26px;
+    padding: 7px 25px;
+    margin: 0px 0px 0px 740px;
+    display: block;
+}
+.buttonsnb5{
+    display:flex;
+    flex-direction: row; 
+    margin-top: 25px;
+}
+.maindivres h3{
+    font-size: 36px;
+}
+.maindivres{
+    border: 2px solid #534949 ;
+    border-radius: 30px;
+    padding: 60px 90px;
+    margin-top: 15px;
+    position: relative;
+    display: block;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center; 
+    height: 300px;
+    margin: 114px 400px 15px 400px;
+}
+.btopics{
+    height: 100px;
+    width: 240px;
+    background-color: white;
+    border: 2px solid #307846 ;
+    border-radius: 9px;
+    color: #307846;
+    font-size: 32px;
+    padding: 7px 25px;
+    margin: 0px auto 0 auto;
+    display: block;
+}
