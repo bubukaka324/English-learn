@@ -3,7 +3,10 @@ body{
     font-family:'Inter', sans-serif; 
     margin:0px;
 }
-
+a{
+    text-decoration: none;
+    color:#000000;
+}
 header{
     position:fixed;
     background-color: #e6e6e6;
@@ -44,6 +47,13 @@ header{
     cursor: pointer;
     box-shadow: 2px 2px 5px 2px #b6b6b6;
 }
+
+.menu a{
+    text-decoration: underline;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
 .menu div{
     display: flex;
     flex-direction: row;
@@ -98,7 +108,7 @@ h1{
 
 .level_tests div{
     background-color: #41DD70;
-    width: 350px;
+    width: 300px;
     height: 225px;
     border-radius: 28px;
     display: block;
@@ -117,7 +127,7 @@ h1{
     width: 100%;
     display: flex;
     flex-direction: row;
-    gap: 93px;
+    gap: 100px;
 }
 
 .level_tests div p,img{
