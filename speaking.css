@@ -3,6 +3,16 @@ main{
     margin-top: 17px;
     margin-bottom: 300px;
 }
+header{
+    margin:0px;
+    top: 0px;
+    position:fixed;
+    background-color: #e6e6e6;
+    height: 90px;
+    z-index: 1000;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
+}
+
 .menu{
     display: flex;
     flex-direction: row;
@@ -10,19 +20,19 @@ main{
     position: relative;
     height: 80px;
     width: 100vw;
-    top: 0;
 }
+
 .menu img{
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
     margin-left: 51px;
-    margin-top: 30px;
+    margin-top: 5px;
     margin-bottom: 34px;
 }
 .menu button{
     height: 40px;
     width: 100px;
-    margin-top: 30px;
+    margin-top: 23px;
     margin-bottom: 50px;
     margin-right: 177px;
     background-color: white;
@@ -31,17 +41,19 @@ main{
     color: #41DD70;
     font-size: 16px;
     padding: 7px 25px;
-
-
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 2px #b6b6b6;
 }
 .menu div{
     display: flex;
     flex-direction: row;
 }
 .menu div p{
-    padding: 24px 0px 21px 70px;
-    font-size: 20px;
-
+    position:relative;
+    font-size:40px;
+    margin:0;
+    padding-top:15px;
+    padding-left:100px;
 }
 body{
     font-family: 'Inter', sans-serif;
