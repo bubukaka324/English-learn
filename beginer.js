@@ -118,6 +118,7 @@ let selectedOptionIndex = null;
     } 
     currentQuestion++;
     if (currentQuestion === 4) {
+      next.style.fontSize = "18px"
       next.textContent = "Закінчити тест";
     } else {
       next.textContent = "Далі";
