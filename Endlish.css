@@ -327,3 +327,8 @@ footer{
     left:70%;
     top:-26%;
 }
+
+canvas {
+    display: block;
+    z-index: -100;
+  }
